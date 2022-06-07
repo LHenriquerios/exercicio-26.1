@@ -13,4 +13,5 @@ enum monthsOfTheYear {
     December = "December"
 }
 
-console.log(monthsOfTheYear["January"])
+
+export default monthsOfTheYear;
