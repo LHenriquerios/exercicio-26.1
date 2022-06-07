@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var monthsOfTheYear;
 (function (monthsOfTheYear) {
     monthsOfTheYear["January"] = "January";
@@ -14,4 +15,4 @@ var monthsOfTheYear;
     monthsOfTheYear["November"] = "November";
     monthsOfTheYear["December"] = "December";
 })(monthsOfTheYear || (monthsOfTheYear = {}));
-console.log(monthsOfTheYear["January"]);
+exports.default = monthsOfTheYear;
